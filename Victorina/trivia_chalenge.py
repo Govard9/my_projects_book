@@ -43,7 +43,7 @@ def next_block(the_file):
 
 
 def welcome(title):
-    """Welcome the player and get his/her name."""
+    """Welcome the player and get his/her name!"""
     print("\t\tWelcome to Trivia Challenge!\n")
     print("\t\t", title, "\n")
 
