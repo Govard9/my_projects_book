@@ -14,7 +14,7 @@ def main(question, low, high, step):
         response = int(input(question))
         while response != RAND:
             if ATTEMPT >= 7:
-                print('\nТвои попытки закончились лошара! Досвидули :)')
+                print('\nТвои попытки закончились! Всего хо-ро-ше-го. :)')
                 exit()
             elif response < RAND:
                 print('Введите число побольше. ')
@@ -28,9 +28,9 @@ def main(question, low, high, step):
 
 def hello():
     """Приветствие"""
-    print('Танюшка, добро пожаловать в игру от Владюшки.\n'
+    print('Добро пожаловать в игру "Угадай число".\n'
           'И так, тебе нужно угадать с 7 попыток правильное число.\n'
-          'Ты готова, детка?')
+          'Ты готов?')
 
 
 def yes_no_func():
@@ -41,7 +41,7 @@ def yes_no_func():
         if yes_no == 'Нет' or yes_no == 'нет':
             print('Иди значит готовься, салага!')
         exit()
-    print('Ну раз готова, значит погнали на*уй!!!!!!!!!!!')
+    print('Ну раз готов, значит погнали!!!!!!!!!!!')
 
 
 def the_end():
